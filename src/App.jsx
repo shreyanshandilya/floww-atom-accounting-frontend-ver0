@@ -11,11 +11,9 @@ function App() {
     <>
       <BrowserRouter>
         <AuthProvider>
-          <div className=' flex'>
-            <aside className='h-[100dvh] xl:w-[20%] lg:w-[20%] md:w-[22%]'>
-              <SideNavbar />
-            </aside>
-            <div className='min-h-[100dvh] xl:w-[80%] lg:w-[80%] md:w-[78%]'>
+          <div className=' flex h-[100dvh] '>
+            <SideNavbar />
+            <div className='h-full w-full overflow-auto'>
               <nav>
                 <TopBar />
               </nav>

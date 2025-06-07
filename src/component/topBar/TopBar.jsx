@@ -9,12 +9,13 @@ export default function TopBar() {
             <button
                 tabIndex={0}
                 onClick={() => { navigate("/") }}
-                className="md:text-base lg:text-lg xl:text-xl font-semibold text-black poppins">
+                className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl font-semibold text-black poppins">
                 Atom Books Dashboard
             </button>
 
             <div className="flex items-center gap-3">
                 <img
+                    loading="lazy"
                     src={user.image} // replace with actual image path
                     alt="Profile"
                     className="w-10 h-10 rounded-full object-cover"
