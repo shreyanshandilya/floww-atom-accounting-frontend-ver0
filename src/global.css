@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  /* PRIMARY */
+  --primary-100: #0057b8;
+  --primary-200: #003366;
+  --primary-10: #00336629;
+
+  /* SECONDARY */
+  --secondary-100: #95e7b8;
+  --secondary-200: #2ecc71;
+  --secondary-10: #2ecc7129;
+
+  /* NEUTRAL */
+  --neutral-100: #ffffff;
+  --neutral-200: #e8e8e8;
+  --neutral-300: #d2d2d2;
+  --neutral-400: #bbbbbb;
+  --neutral-500: #a4a4a4;
+  --neutral-600: #8e8e8e;
+  --neutral-700: #777777;
+  --neutral-800: #606060;
+  --neutral-900: #4a4a4a;
+  --neutral-1000: #333333;
+  --neutral-10: #33333329;
+
+  /* RED (Feedback) */
+  --red-100: #fb3748;
+  --red-200: #d00416;
+  --red-10: #fb374829;
+
+  /* YELLOW (Feedback) */
+  --yellow-100: #ffdb43;
+  --yellow-200: #dfd400;
+  --yellow-10: #ffdb4329;
+
+  /* GREEN (Feedback) */
+  --green-100: #84ebb4;
+  --green-200: #1fc16b;
+  --green-10: #84ebb429;
+}
+
+.plus-jakarta-sans{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
